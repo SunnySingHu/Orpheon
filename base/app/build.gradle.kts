@@ -166,7 +166,7 @@ dependencies {
     // Jam: scan the invite QR code (Google code scanner, no camera permission).
     implementation("com.google.android.gms:play-services-code-scanner:16.1.0")
     // Myspoti TV: the support links as QR codes (Apache-2.0), the encoder alone.
-    implementation("com.google.zxing:core:3.5.3")
+    implementation("com.google.zxing:core:3.5.4")
     testImplementation("junit:junit:4.13.2")
     // Virtual time for the tests of timed coroutines (graces, timeouts): no real waits.
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.11.0")
